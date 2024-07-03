@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/rabbit.png" alt="アイコン">
+        <nav>
+            <ul>
+                <li>ホーム</li>
+                <li><a href="#blog">ブログ記事</a></li>
+                <li><a href="#content">問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>🐱さいしんのニュース</h2>
+            <div>
+                <p>最新のニュースです</p>
+            </div>
+            <div>
+                <p>最新のニュースです</p>
+            </div>
+        </section>
+        <section id="blog">
+            <h2>🐕最新のブログ記事</h2>
+            <article>
+                <a href="">
+                    <img src="images/swoman_sad.png" alt="記事">
+                    <p>Javaに関す記事です</p>
+                </a>
+            </article>
+            <article>
+                <a href="">
+                    <img src="images/sman_sad.png" alt="記事">
+                    <p>cssに関す記事です</p>
+                </a>
+            </article>
+            <article>
+                <a href="">
+                    <img src="images/swoman_smile.png"  alt="記事">
+                    <p>Javascriptに関す記事です</p>
+                </a>
+            </article>
+        </section>
+        <section id="content">
+            <h2>🐉お問い合わせ</h2>
+            <p>何か質問がありましたら、以下の入力欄に入力して送信してください。</p>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="contents">お問合せ</label>
+                    <textarea name="contents" id="contents" cols="30" rows="10"></textarea>
+                </div>
+                <button>送信</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright <small>&copy; ブログ管理者</small></p>
+    </footer>
+</body>
+
+</html>

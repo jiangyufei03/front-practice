@@ -1,0 +1,33 @@
+.parent-box{
+    width: 1000px;
+    height: 880px;
+    background-color: yellow;
+    position: relative;
+}
+
+.box{
+    width: 200px;
+    height:200px;
+    border: 1px solid black;
+}
+
+.box1{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+.box2{
+    background-color: blue;
+    /* position: relative;
+    left: 300px; */
+    position:absolute;
+    top: 0;
+    left: 100px;
+    z-index: 500;
+}
+
+.box3{
+    background-color: green;
+}

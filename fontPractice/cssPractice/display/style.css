@@ -1,0 +1,30 @@
+header{
+    background-color: pink;
+    padding: 20px;
+}
+/*メニューの内容を横並びする*/
+ul{
+    /*横並びにする*/
+    display:flex;
+    /* 隙間を作る */
+    gap: 0 10px;
+    /*箇条書きの・を削除*/
+    list-style: none;
+    /* 中央に寄せる */
+    justify-content: center;
+}
+
+.blog-contents{
+    /*横並びにする*/
+    display:flex;
+    gap: 0 20px;
+    justify-content: center;
+}
+
+.blog{
+    width: 30%;
+}
+
+img{
+    width: 100%;
+}

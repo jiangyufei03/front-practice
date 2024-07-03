@@ -1,0 +1,41 @@
+.form-contents{
+    /*幅の設定*/
+    width: 600px; 
+     /*罫線を引く*/
+    border:  1px solid black ;
+
+     /*ブロックを真ん中に配置*/
+     margin: 50px auto;
+}
+
+.login-form{
+     /*幅の設定*/
+     width: 300px;
+     /*ブロックを真ん中に配置*/
+     margin: 0 auto;
+}
+
+/*Loginという文字を真ん中に持ってくる*/
+h2{
+    text-align: center;
+}
+
+ /*下に余白を入れて要素を同士を離す*/
+.control-group{
+    margin-bottom: 20px;
+}
+
+/*ボタンとリンクを真ん中に持ってくる*/
+.control-position{
+    text-align: center;
+}
+
+/*ボタンの装飾*/
+.btn{
+    width: 150px;
+    padding: 5px 0;
+    /* 背景色 */
+    background-color:#3498DB ;
+    /*文字色を白にする　white*/
+    color: white;
+}

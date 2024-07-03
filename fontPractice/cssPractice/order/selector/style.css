@@ -1,0 +1,38 @@
+*{
+    font-size: 20px;
+}
+
+
+
+#li-color{
+    color: red;
+}
+
+.text-color{
+    color: blue;
+    font-size: 50px;
+}
+
+#contents{
+    color: red;
+}
+
+.section{
+    color: blue;
+}
+
+div{
+    color: green;
+}
+
+/* 
+コメント練習
+*/
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
